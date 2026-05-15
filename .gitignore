@@ -1,0 +1,26 @@
+node_modules/
+package-lock.json
+.env
+.env.local
+
+# Real product profile (with secrets) — only the example is committed
+product-profile.yaml
+
+# Per-run artifacts
+dry-run-output/*.png
+dry-run-output/*.mp4
+dry-run-output/.tmp/
+
+# Submission audit log — start fresh per checkout, but you may want to
+# commit a shared one across the team. Remove this line if so.
+submission_history.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

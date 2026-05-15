@@ -1,0 +1,42 @@
+{
+  "name": "@chocodata/directory-submission-skill",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Submit a product to 80+ SaaS / dev-tool / API directories via Playwright. Claude Skill wrapper around a curated subset of backlink-pilot.",
+  "main": "adapters/generic.js",
+  "scripts": {
+    "filter": "python scripts/filter_targets.py",
+    "submit": "python scripts/submit_one.py",
+    "batch": "python scripts/batch_submit.py",
+    "scout": "python scripts/scout_form.py",
+    "verify": "python scripts/verify_submission.py",
+    "dry-run:devhunt": "python scripts/submit_one.py --profile product-profile.yaml --site DevHunt --dry-run",
+    "dry-run:thesaasdir": "python scripts/submit_one.py --profile product-profile.yaml --site TheSaaSDir --dry-run",
+    "dry-run:apilist": "python scripts/submit_one.py --profile product-profile.yaml --site apilist.fun --dry-run"
+  },
+  "keywords": [
+    "claude-skill",
+    "backlinks",
+    "directory-submission",
+    "seo",
+    "playwright",
+    "saas",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChocoData-com/directory-submission-skill.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "playwright": "^1.58.0",
+    "yaml": "^2.4.0"
+  },
+  "optionalDependencies": {
+    "@playwright/mcp": "*",
+    "@browserbasehq/stagehand": "*"
+  }
+}

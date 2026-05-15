@@ -1,0 +1,118 @@
+# Product Profile — Single source of truth for directory submissions
+#
+# This file is consumed by every script in scripts/ and every adapter in
+# adapters/. Keep it committed and accurate — submissions reflect what's here.
+#
+# Tagline: a tight one-liner for slots that cap at ~80 chars.
+# short_description: 160 chars (SEO meta description range).
+# long_description: 500-1500 chars, used for the bigger "describe your tool"
+#   slot most directories provide.
+
+product:
+  name: "Amazon Scraper API"
+  tagline: "Cheap, fast Amazon scraping API for product, search, and seller data"
+  short_description: >
+    Amazon Scraper API is a developer-first API for scraping Amazon product
+    pages, search results, and seller info — pay-per-success, free tier
+    available.
+  long_description: |
+    Amazon Scraper API gives developers a clean REST API for extracting
+    structured data from Amazon — product details, prices, reviews, search
+    results, seller info, and ASIN lookups — across all Amazon marketplaces.
+
+    Why teams switch to us:
+      - Pay only for successful scrapes (no per-GB residential proxy bill).
+      - Free tier with 1,000 monthly requests, no credit card.
+      - Sub-2-second average response on cached products.
+      - JSON-first responses, no HTML parsing on your end.
+      - Bulk endpoints + webhook delivery for high-volume jobs.
+
+    Built for price-monitoring, ecommerce analytics, MAP compliance, and
+    competitive intel workflows. Works with every Amazon TLD (.com, .co.uk,
+    .de, .jp and more).
+
+  url: "https://amazonscraperapi.com"
+  # Optional UTM-tagged URL — if set, this gets used instead of `url` for
+  # directories that pass-through query params. Some directories strip them,
+  # which is fine.
+  utm_url: "https://amazonscraperapi.com?utm_source=directory&utm_medium=listing&utm_campaign=launch"
+
+  # Pricing model — used by directories that ask
+  pricing: "freemium"  # one of: free | freemium | paid | open_source
+  free_tier: true
+  starts_at_usd: 0
+  paid_starts_at_usd: 19
+
+  # Categories — match these to whatever each directory's taxonomy uses;
+  # the generic adapter will pick the closest fuzzy match.
+  categories:
+    - api
+    - developer-tools
+    - web-scraping
+    - ecommerce
+    - data
+    - amazon-tools
+
+  # Tags / keywords — additional terms for sites with a tag input
+  tags:
+    - amazon
+    - scraping
+    - api
+    - ecommerce
+    - asin
+    - product-data
+    - price-monitoring
+
+  # Contact info
+  email: "hello@amazonscraperapi.com"
+  twitter: "amazonscraperapi"
+  github: "ChocoData-com"
+  linkedin: ""
+
+  # Visual assets — paths are relative to this file's directory
+  logo_path: "assets/logo-256.png"
+  og_image_path: "assets/og-1200x630.png"
+  screenshot_path: "assets/screenshot-product-1280x800.png"
+
+  # Founder / submitter info (some sites ask)
+  founder:
+    name: "ChocoData Team"
+    email: "founders@chocodata.com"
+    role: "Maintainers"
+
+# Credentials for sites that require login. Optional — only fill in for sites
+# you plan to actually log into. NEVER commit a real credentials file; this
+# example uses empty values.
+credentials:
+  saashub:
+    email: ""
+    password: ""
+  stackshare:
+    email: ""
+    password: ""
+  devhunt:
+    github_token: "${GITHUB_TOKEN}"  # uses env var if set
+  uneed:
+    email: ""
+    password: ""
+
+# Browser settings — picked up by the JS adapters
+browser:
+  # backend: one of playwright-mcp, stagehand, chrome-mcp, playwright
+  # If unset, scripts/submit_one.py auto-detects in this priority order:
+  #   1. playwright-mcp (if @playwright/mcp is installed)
+  #   2. stagehand     (if @browserbasehq/stagehand is installed)
+  #   3. chrome-mcp    (if Claude in Chrome is connected)
+  #   4. playwright    (always available as ultimate fallback)
+  backend: "auto"
+  headless: true
+  slow_mo_ms: 100
+  timeout_ms: 30000
+  screenshot_dir: "./dry-run-output"
+  user_agent: ""  # leave blank to use sensible default
+
+# Submission pacing — be polite to directories
+pacing:
+  min_interval_ms: 60000          # 1 min between different sites
+  same_site_interval_ms: 3600000  # 1 hour before retrying the same site
+  jitter_ms: 15000                # +/- random jitter
