@@ -1,6 +1,6 @@
 // adapters/stackshare.js
 //
-// StackShare (https://stackshare.io/services/new) — service catalog. Auth
+// StackShare (https://stackshare.io/services/new) - service catalog. Auth
 // is email/password; the create-service form has Name, Tagline, Website,
 // Category (combobox), Description, Logo upload.
 //

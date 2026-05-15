@@ -120,7 +120,7 @@ def main():
             break
 
     if found:
-        print(f"[verify] OK — found a reference to {name} or {domain}")
+        print(f"[verify] OK - found a reference to {name} or {domain}")
         sys.exit(0)
     print("[verify] no reference found yet (still queued or not indexed)")
     sys.exit(1)

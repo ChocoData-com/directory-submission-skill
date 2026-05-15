@@ -38,7 +38,7 @@ SUBMIT_ONE = REPO_ROOT / "scripts" / "submit_one.py"
 
 def load_targets(priority_filter=None, category_filter=None):
     if not FILTERED.exists():
-        sys.stderr.write("filtered-targets.yaml missing — run scripts/filter_targets.py first\n")
+        sys.stderr.write("filtered-targets.yaml missing - run scripts/filter_targets.py first\n")
         sys.exit(2)
     with FILTERED.open("r", encoding="utf-8") as f:
         data = yaml.safe_load(f) or {}

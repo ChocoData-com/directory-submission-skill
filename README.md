@@ -28,21 +28,21 @@ pattern.
 
 ## What you get
 
-- `filtered-targets.yaml` — 80 directories that accept dev-tool / API /
+- `filtered-targets.yaml` - 80 directories that accept dev-tool / API /
   SaaS submissions, filtered from
   [s87343472/backlink-pilot](https://github.com/s87343472/backlink-pilot)'s
   259-entry source list. Live + English + auto-fillable only.
-- `adapters/` — JS adapters for each site:
-  - `generic.js` — accessibility-tree fallback, works for ~70% of forms.
-  - `devhunt.js`, `saashub.js`, `stackshare.js`, `uneed.js` — custom flows
+- `adapters/` - JS adapters for each site:
+  - `generic.js` - accessibility-tree fallback, works for ~70% of forms.
+  - `devhunt.js`, `saashub.js`, `stackshare.js`, `uneed.js` - custom flows
     for sites with login or multi-step forms.
-- `scripts/` — Python orchestration:
-  - `submit_one.py` — one site at a time, dry-run safe.
-  - `batch_submit.py` — queue with pacing + history dedup.
-  - `scout_form.py` — probe a new directory and generate an adapter stub.
-  - `verify_submission.py` — post-submission grep for our listing.
-- `submission_history.json` — append-only audit log.
-- `dry-run-output/` — full-page screenshots per attempt.
+- `scripts/` - Python orchestration:
+  - `submit_one.py` - one site at a time, dry-run safe.
+  - `batch_submit.py` - queue with pacing + history dedup.
+  - `scout_form.py` - probe a new directory and generate an adapter stub.
+  - `verify_submission.py` - post-submission grep for our listing.
+- `submission_history.json` - append-only audit log.
+- `dry-run-output/` - full-page screenshots per attempt.
 
 ## Why fork from backlink-pilot?
 
@@ -56,10 +56,10 @@ made dry-run a first-class flag.
 
 `BROWSER_BACKEND` env var (or `browser.backend` in the profile):
 
-- `playwright` — direct, always works.
-- `playwright-mcp` — same protocol, driven via `@playwright/mcp`.
-- `stagehand` — LLM-driven actions for forms `generic.js` cannot read.
-- `chrome-mcp` — drive the user's own Chrome via the Claude-in-Chrome
+- `playwright` - direct, always works.
+- `playwright-mcp` - same protocol, driven via `@playwright/mcp`.
+- `stagehand` - LLM-driven actions for forms `generic.js` cannot read.
+- `chrome-mcp` - drive the user's own Chrome via the Claude-in-Chrome
   extension. Useful for sites where you are already logged in.
 
 Defaults to `auto`, which probes in priority order.

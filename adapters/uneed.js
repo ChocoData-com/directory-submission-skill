@@ -1,10 +1,10 @@
 // adapters/uneed.js
 //
-// Uneed (https://www.uneed.best/promote-your-tool) — Tally-form-based
+// Uneed (https://www.uneed.best/promote-your-tool) - Tally-form-based
 // submission. Their UI changes often; we drive the embedded Tally form
 // instead of the host page where possible.
 //
-// Uneed is queued (free tier) — submissions show up after a few days.
+// Uneed is queued (free tier) - submissions show up after a few days.
 
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -61,7 +61,7 @@ export async function runUneed(opts) {
     await page.goto(SUBMIT_URL, { waitUntil: "domcontentloaded" });
     await jitterDelay(3000);
 
-    // Tally iframes — try to switch into one if present
+    // Tally iframes - try to switch into one if present
     const iframes = page.frames();
     const tallyFrame = iframes.find((f) =>
       f.url().includes("tally.so") || f.name().includes("tally")

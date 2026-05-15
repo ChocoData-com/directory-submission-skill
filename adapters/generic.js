@@ -198,10 +198,10 @@ export async function runGeneric(opts) {
     const bodyText = (await page.textContent("body").catch(() => "")) || "";
     const snippet = bodyText.slice(0, 500).toLowerCase();
     if (/404|not found|page not found/.test(snippet) || /404/.test(title)) {
-      throw new Error("Page is 404 — submit URL is stale");
+      throw new Error("Page is 404 - submit URL is stale");
     }
     if (/500|server error|internal error/.test(snippet)) {
-      throw new Error("Server returned 5xx — site appears down");
+      throw new Error("Server returned 5xx - site appears down");
     }
 
     const snap = await buildAriaSnapshot(page);
@@ -221,7 +221,7 @@ export async function runGeneric(opts) {
       .catch(() => null);
 
     if (dryRun) {
-      console.log("[generic] DRY-RUN — would fill:");
+      console.log("[generic] DRY-RUN - would fill:");
       for (const [k, v] of Object.entries(report.would_fill)) {
         console.log(`  ${k} => ${typeof v === "string" ? v.slice(0, 80) : v}`);
       }

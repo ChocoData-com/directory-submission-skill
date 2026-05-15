@@ -79,7 +79,7 @@ export async function launchPage({ backend, headless = true, userAgent } = {}) {
   if (backend === "playwright" || backend === "playwright-mcp") {
     // playwright-mcp speaks the playwright protocol, so we drive it the
     // same way. The MCP server itself is launched by the host (Claude
-    // Code) — here we just need a Browser handle.
+    // Code) - here we just need a Browser handle.
     const { chromium } = await import("playwright");
     const browser = await chromium.launch({
       headless,

@@ -211,7 +211,7 @@ failure.
   to solve it interactively.
 - **Throttling per directory.** Pacing is per-batch (between different
   sites). For retrying the same site, `pacing.same_site_interval_ms`
-  governs the minimum wait — `batch_submit.py` checks history before
+  governs the minimum wait - `batch_submit.py` checks history before
   retry.
 - **Stale submit URLs.** Directories rename `/submit` to `/add-tool` to
   `/get-listed` and back. `generic.js` does pre-flight URL checks and
@@ -222,10 +222,10 @@ failure.
 
 Every submission writes to two places:
 
-1. `submission_history.json` — append-only JSON log, one entry per attempt
+1. `submission_history.json` - append-only JSON log, one entry per attempt
    with: site, target_url, adapter, backend, dry_run, submitted, error,
    final_url, screenshot paths, timestamp.
-2. `dry-run-output/<slug>-<ts>-before.png` and `*-after.png` — full-page
+2. `dry-run-output/<slug>-<ts>-before.png` and `*-after.png` - full-page
    screenshots from each submission. Keep these as evidence for support
    tickets ("you said our submission was rejected for incomplete form,
    here is what was on screen when we submitted").

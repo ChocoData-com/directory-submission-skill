@@ -60,7 +60,7 @@ MANUAL_WHITELIST = {
     "AITopTools",
 }
 
-# Manually-identified seed targets — must always appear in the output
+# Manually-identified seed targets - must always appear in the output
 SEED_TARGETS = [
     {
         "name": "DevHunt",
@@ -226,7 +226,7 @@ def normalize(entry: dict, section: str) -> dict:
     }
     if entry.get("notes"):
         out["notes"] = entry["notes"]
-    # Priority heuristic — higher for known dev/api/saas-adjacent names
+    # Priority heuristic - higher for known dev/api/saas-adjacent names
     priority = "low"
     keywords_high = ("api", "saashub", "alternativeto", "sourceforge",
                      "stackshare", "devhunt", "indiehack")
@@ -300,7 +300,7 @@ def main():
         merged.append(entry)
         seen_final.add(entry["submit_url"])
 
-    # Cap at 80 — keep all high/medium priority first
+    # Cap at 80 - keep all high/medium priority first
     high = [e for e in merged if e.get("priority") == "high"]
     med = [e for e in merged if e.get("priority") == "medium"]
     low = [e for e in merged if e.get("priority") == "low"]

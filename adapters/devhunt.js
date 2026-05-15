@@ -1,6 +1,6 @@
 // adapters/devhunt.js
 //
-// DevHunt (https://devhunt.org/) — curated daily-launch directory for dev
+// DevHunt (https://devhunt.org/) - curated daily-launch directory for dev
 // tools. Auth is GitHub OAuth, then a multi-step submission form (logo
 // upload, name, tagline, description, categories, links).
 //
@@ -11,7 +11,7 @@
 // programmatically.
 //
 // In --dry-run mode this only navigates to the submit page and reports
-// what it sees — it never logs in.
+// what it sees - it never logs in.
 
 import { readFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
@@ -71,7 +71,7 @@ export async function runDevHunt(opts) {
 
   try {
     // Step 1: visit submit page. If we are not logged in, DevHunt redirects
-    // to /api/auth/signin — we capture that and report it.
+    // to /api/auth/signin - we capture that and report it.
     await page.goto(SUBMIT_URL, {
       waitUntil: "domcontentloaded",
       timeout: browserCfg.timeout_ms || 30000,
