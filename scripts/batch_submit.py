@@ -32,26 +32,40 @@ except ImportError:
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 FILTERED = REPO_ROOT / "filtered-targets.yaml"
+QUEUE = REPO_ROOT / "queue.yaml"
 HISTORY = REPO_ROOT / "submission_history.json"
 SUBMIT_ONE = REPO_ROOT / "scripts" / "submit_one.py"
 
 
-def load_targets(priority_filter=None, category_filter=None):
-    if not FILTERED.exists():
-        sys.stderr.write("filtered-targets.yaml missing - run scripts/filter_targets.py first\n")
+def load_targets(priority_filter=None, category_filter=None, queue_path: Path | None = None):
+    # Prefer the merged queue.yaml if it exists; fall back to filtered-targets.yaml.
+    path = queue_path or (QUEUE if QUEUE.exists() else FILTERED)
+    if not path.exists():
+        sys.stderr.write(
+            f"queue source missing: looked for {path}. Run scripts/build_queue.py "
+            "or scripts/filter_targets.py first.\n"
+        )
         sys.exit(2)
-    with FILTERED.open("r", encoding="utf-8") as f:
+    with path.open("r", encoding="utf-8") as f:
         data = yaml.safe_load(f) or {}
     targets = []
-    for key, entries in data.items():
-        if key == "_meta" or not isinstance(entries, list):
+    # Two supported schemas:
+    #   1. flat list under `targets:` (new queue.yaml)
+    #   2. category-keyed lists under top-level keys (legacy filtered-targets.yaml)
+    if isinstance(data.get("targets"), list):
+        candidates = data["targets"]
+    else:
+        candidates = []
+        for key, entries in data.items():
+            if key in ("_meta", "metadata") or not isinstance(entries, list):
+                continue
+            candidates.extend(entries)
+    for entry in candidates:
+        if priority_filter and entry.get("priority") != priority_filter:
             continue
-        for entry in entries:
-            if priority_filter and entry.get("priority") != priority_filter:
-                continue
-            if category_filter and entry.get("category") != category_filter:
-                continue
-            targets.append(entry)
+        if category_filter and entry.get("category") != category_filter:
+            continue
+        targets.append(entry)
     return targets
 
 
@@ -65,6 +79,7 @@ def already_submitted(history: list[dict], name: str) -> bool:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--profile", required=True)
+    ap.add_argument("--queue", default=None, help="path to queue YAML (default: queue.yaml then filtered-targets.yaml)")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--limit", type=int, default=None, help="max sites this run")
     ap.add_argument("--priority", choices=["high", "medium", "low"], default=None)
@@ -86,7 +101,8 @@ def main():
         except json.JSONDecodeError:
             history = []
 
-    targets = load_targets(args.priority, args.category)
+    queue_path = Path(args.queue).resolve() if args.queue else None
+    targets = load_targets(args.priority, args.category, queue_path=queue_path)
     if args.skip_existing and not args.dry_run:
         targets = [t for t in targets if not already_submitted(history, t["name"])]
     if args.limit:

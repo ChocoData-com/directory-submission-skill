@@ -1,8 +1,9 @@
 # STATUS - directory-submission skill
 
-Built end-to-end on 2026-05-15. Ready for use in dry-run; ready for live
-submission once the user has reviewed `product-profile.yaml` and (where
-needed) supplied login credentials.
+Built end-to-end on 2026-05-15. **Production ready** as of the same day: real
+brand assets in place, full product profile filled in, 233-target merged queue
+generated, 1-target dry-run passed. See `PRODUCTION_READY.md` for the exact
+command, wall-clock estimate, and audit trail layout.
 
 ## Repos created and pushed
 
@@ -91,10 +92,11 @@ auto-picked: `playwright-mcp` (because `@playwright/mcp` is installed in
 
 ## Outstanding for the user
 
-1. **Replace placeholder assets.** `assets/logo-256.png` and
-   `assets/og-1200x630.png` are solid-color placeholders. Drop in the
-   real Amazon Scraper API logo and 1200x630 OG image before running
-   the queue for real.
+1. ~~**Replace placeholder assets.**~~ DONE 2026-05-15. `assets/logo-256.png`
+   is now a 256x256 brand-orange (#f90) PNG with white "ASA" wordmark;
+   `assets/og-1200x630.png` is a production OG image with the Amazon
+   Scraper API headline, tagline, URL, free-tier callout, and pricing badge.
+   Both generated with Pillow from the live-site CSS color tokens.
 2. **Edit `product-profile.yaml`.** Set the email address, Twitter
    handle, GitHub org, and any login creds you want the SaaSHub /
    StackShare / Uneed adapters to use.

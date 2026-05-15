@@ -1,0 +1,3510 @@
+metadata:
+  generated_at: '2026-05-15T15:17:15Z'
+  total: 233
+  sources:
+    validated_targets: 166
+    filtered_targets: 80
+    deduplicated: 13
+  priority_breakdown:
+    high: 27
+    medium: 189
+    low: 17
+  schema: v1
+  notes: 'Sorted: priority desc, DR desc, form_complexity asc. Each entry carries both `domain` (canonical) and `name` (human-readable)
+    so the existing batch_submit.py / submit_one.py keep working.'
+targets:
+- name: Dang Ai
+  domain: dang.ai
+  url: https://dang.ai/#
+  submit_url: https://dang.ai/#
+  category: ai_tool
+  dr: 81.0
+  monthly_traffic_est: 3592
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: AI Tools Directory | Dang.ai
+- name: Callupcontact Com
+  domain: callupcontact.com
+  url: https://www.callupcontact.com/active/register/register.php
+  submit_url: https://www.callupcontact.com/active/register/register.php
+  category: dev_tool
+  dr: 76.0
+  monthly_traffic_est: 2121
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Callupcontact Create Account
+- name: Activesearchresults Com
+  domain: activesearchresults.com
+  url: https://www.activesearchresults.com/addwebsite.php/
+  submit_url: https://www.activesearchresults.com/addwebsite.php/
+  category: dev_tool
+  dr: 74.0
+  monthly_traffic_est: 2
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Add Your Website to the Active Search Results Search Engine
+- name: Futuretools Io
+  domain: futuretools.io
+  url: https://www.futuretools.io/submit-a-tool
+  submit_url: https://www.futuretools.io/submit-a-tool
+  category: ai_tool
+  dr: 70.0
+  monthly_traffic_est: 84859
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Future Tools - Submit a Tool
+- name: Navs Site
+  domain: navs.site
+  url: https://navs.site/submit
+  submit_url: https://navs.site/submit
+  category: ai_tool
+  dr: 66.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Submit AI Tool | Navs.Site
+- name: Addonbiz Com
+  domain: addonbiz.com
+  url: https://www.addonbiz.com/add-your-listing/
+  submit_url: https://www.addonbiz.com/add-your-listing/
+  category: dev_tool
+  dr: 65.0
+  monthly_traffic_est: 52
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Add Your Listing - Addonbiz
+- name: Yo Directory
+  domain: yo.directory
+  url: https://yo.directory
+  submit_url: https://yo.directory
+  category: ai_tool
+  dr: 63.0
+  monthly_traffic_est: 2691
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Directory of Directories - Yo.directory
+- name: Business Software Com
+  domain: business-software.com
+  url: https://www.business-software.com/add-your-product
+  submit_url: https://www.business-software.com/add-your-product
+  category: dev_tool
+  dr: 50.0
+  monthly_traffic_est: 5416
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Add Your Product - Business-Software.com
+- name: Launchingnext Com
+  domain: launchingnext.com
+  url: https://www.launchingnext.com/submit/
+  submit_url: https://www.launchingnext.com/submit/
+  category: startup_launch
+  dr: 50.0
+  monthly_traffic_est: 746
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Submit Your Project | Launching Next
+- name: Registerkaro In
+  domain: registerkaro.in
+  url: https://www.registerkaro.in/
+  submit_url: https://www.registerkaro.in/
+  category: dev_tool
+  dr: 48.0
+  monthly_traffic_est: 143905
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Online Legal & Business Solutions for Startups & SMEs | RegisterKaro
+- name: Toolsapp Cc
+  domain: toolsapp.cc
+  url: https://toolsapp.cc/
+  submit_url: https://toolsapp.cc/
+  category: startup_launch
+  dr: 43.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Get your best AI Tools | ToolsApp AI Tools Directory
+- name: Unrola Com
+  domain: unrola.com
+  url: https://unrola.com/
+  submit_url: https://unrola.com/
+  category: dev_tool
+  dr: 43.0
+  monthly_traffic_est: 115
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Unrola - AI App Store. Curated by Humans.
+- name: 10words Io
+  domain: 10words.io
+  url: https://10words.io/
+  submit_url: https://10words.io/
+  category: dev_tool
+  dr: 34.0
+  monthly_traffic_est: 27
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Discover new apps and startups in 10 words or less
+- name: Rankfirms Com
+  domain: rankfirms.com
+  url: https://www.rankfirms.com/get-listed
+  submit_url: https://www.rankfirms.com/get-listed
+  category: dev_tool
+  dr: 31.0
+  monthly_traffic_est: 9
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Get listed - RankFirms
+- name: Tools Ai Online
+  domain: tools-ai.online
+  url: https://www.tools-ai.online/submit-tool
+  submit_url: https://www.tools-ai.online/submit-tool
+  category: ai_tool
+  dr: 24.0
+  monthly_traffic_est: 4
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool | Tools AI Online
+- name: Bestfreeaiwebsites Com
+  domain: bestfreeaiwebsites.com
+  url: https://bestfreeaiwebsites.com/
+  submit_url: https://bestfreeaiwebsites.com/
+  category: ai_tool
+  dr: 21.0
+  monthly_traffic_est: 7751
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Best Free AI Websites
+- name: Aitoolsguide Com
+  domain: aitoolsguide.com
+  url: https://aitoolsguide.com/
+  submit_url: https://aitoolsguide.com/
+  category: ai_tool
+  dr: 19.0
+  monthly_traffic_est: 1379
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: AIToolsGuide - Discover, compare, and choose AI tools
+- name: Aitoolhub Co
+  domain: aitoolhub.co
+  url: https://aitoolhub.co/submissions/new
+  submit_url: https://aitoolhub.co/submissions/new
+  category: ai_tool
+  dr: 14.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Advertise Your AI Tool | AIToolHub
+- name: Toolbit Ai
+  domain: toolbit.ai
+  url: https://www.toolbit.ai/dashboard/submit-tool
+  submit_url: https://www.toolbit.ai/dashboard/submit-tool
+  category: ai_tool
+  dr: 14.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Sign In - Toolbit.ai
+- name: Humanornot Co
+  domain: humanornot.co
+  url: https://www.humanornot.co/
+  submit_url: https://www.humanornot.co/
+  category: ai_tool
+  dr: 13.0
+  monthly_traffic_est: 175
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Human or Not - The Best Place To Find And Learn About AI
+- name: Theaihunter Com
+  domain: theaihunter.com
+  url: https://www.theaihunter.com/submit-ai-tool
+  submit_url: https://www.theaihunter.com/submit-ai-tool
+  category: startup_launch
+  dr: 12.0
+  monthly_traffic_est: 7
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Launch Your AI Tool
+- name: Findseotools Com
+  domain: findseotools.com
+  url: https://www.findseotools.com/
+  submit_url: https://www.findseotools.com/
+  category: startup_launch
+  dr: 11.0
+  monthly_traffic_est: 515
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: high
+  adapter: generic
+  source: validated
+  notes: Find SEO Tools - findSEOtools.com
+- name: apilist.fun
+  domain: apilist.fun
+  url: https://apilist.fun/
+  submit_url: https://apilist.fun/submit
+  category: api
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: high
+  adapter: generic
+  source: filtered
+  notes: API directory, free listing
+- name: apistack.io
+  domain: apistack.io
+  url: https://apistack.io/
+  submit_url: https://apistack.io/submit
+  category: api
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: high
+  adapter: generic
+  source: filtered
+  notes: API marketplace
+- name: apivault.dev
+  domain: apivault.dev
+  url: https://apivault.dev/
+  submit_url: https://apivault.dev/submit
+  category: api
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: high
+  adapter: generic
+  source: filtered
+  notes: Public API directory
+- name: SourceForge
+  domain: sourceforge.net
+  url: https://sourceforge.net/
+  submit_url: https://sourceforge.net/software/vendors/new
+  category: software
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: high
+  adapter: generic
+  source: filtered
+  notes: 20M monthly users
+- name: TheSaaSDir
+  domain: thesaasdir.com
+  url: https://thesaasdir.com/
+  submit_url: https://www.thesaasdir.com/submit
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: high
+  adapter: generic
+  source: filtered
+  notes: Free SaaS directory, dofollow
+- name: Supply Carrd Co
+  domain: supply.carrd.co
+  url: https://supply.carrd.co/
+  submit_url: https://supply.carrd.co/
+  category: dev_tool
+  dr: 91.0
+  monthly_traffic_est: 6
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Carrd Supply | Carrd Templates, Tools, Tutorials, Plugins, Components, Resources and Inspiration
+- name: Financesonline Com
+  domain: financesonline.com
+  url: https://financesonline.com/add-product/
+  submit_url: https://financesonline.com/add-product/
+  category: saas_general
+  dr: 87.0
+  monthly_traffic_est: 1
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Add Your B2B or SaaS Product To Our Software Review Platform
+- name: Toolpilot Ai
+  domain: toolpilot.ai
+  url: https://www.toolpilot.ai/
+  submit_url: https://www.toolpilot.ai/
+  category: ai_tool
+  dr: 77.0
+  monthly_traffic_est: 1136
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ToolPilot AI - Navigate AI&#39;s Possibilities with AI Tools Directory
+- name: Launchigniter Com
+  domain: launchigniter.com
+  url: https://launchigniter.com/
+  submit_url: https://launchigniter.com/
+  category: startup_launch
+  dr: 74.0
+  monthly_traffic_est: 7
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: LaunchIgniter - Discover and Launch Amazing Products
+- name: Uneed Best
+  domain: uneed.best
+  url: https://www.uneed.best/
+  submit_url: https://www.uneed.best/
+  category: startup_launch
+  dr: 74.0
+  monthly_traffic_est: 1820
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: medium
+  adapter: uneed
+  source: validated
+  notes: Uneed - Launch. Get seen. Grow. | Uneed
+- name: Peerpush Net
+  domain: peerpush.net
+  url: https://peerpush.net/submit
+  submit_url: https://peerpush.net/submit
+  category: startup_launch
+  dr: 73.0
+  monthly_traffic_est: 40
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Login | PeerPush
+- name: Goodaitools Com
+  domain: goodaitools.com
+  url: https://goodaitools.com/
+  submit_url: https://goodaitools.com/
+  category: startup_launch
+  dr: 73.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Discover the Best AI Tools to Boost Your Productivity. - Good AI Tools (2026)
+- name: Viesearch Com
+  domain: viesearch.com
+  url: https://viesearch.com/submit
+  submit_url: https://viesearch.com/submit
+  category: saas_general
+  dr: 73.0
+  monthly_traffic_est: 644
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit a website - Viesearch
+- name: Aiagentsdirectory Com
+  domain: aiagentsdirectory.com
+  url: https://aiagentsdirectory.com/
+  submit_url: https://aiagentsdirectory.com/
+  category: ai_tool
+  dr: 72.0
+  monthly_traffic_est: 1712
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AI Agent Marketplace & Directory | Find Top AI Agents & AI Agent Solutions
+- name: Open Launch Com
+  domain: open-launch.com
+  url: https://open-launch.com/projects/submit
+  submit_url: https://open-launch.com/projects/submit
+  category: startup_launch
+  dr: 70.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Open Launch - Discover the Best Tech Products
+- name: Aitools Inc
+  domain: aitools.inc
+  url: https://aitools.inc/
+  submit_url: https://aitools.inc/
+  category: ai_tool
+  dr: 68.0
+  monthly_traffic_est: 3865
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AI Tools Directory | Find The Best AI For Your Needs
+- name: Exactseek Com
+  domain: exactseek.com
+  url: https://www.exactseek.com/
+  submit_url: https://www.exactseek.com/
+  category: saas_general
+  dr: 68.0
+  monthly_traffic_est: 100
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: 'Web Search Engine: ExactSeek.com'
+- name: Startupfa St
+  domain: startupfa.st
+  url: https://www.startupfa.st/
+  submit_url: https://www.startupfa.st/
+  category: startup_launch
+  dr: 68.0
+  monthly_traffic_est: 8868
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Startup Fast - Submit Your Startup & Get Quality Backlinks
+- name: Showmysites Com
+  domain: showmysites.com
+  url: https://www.showmysites.com/my-websites/create/
+  submit_url: https://www.showmysites.com/my-websites/create/
+  category: saas_general
+  dr: 67.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Sign In - ShowMySites
+- name: Aitoolly Com
+  domain: aitoolly.com
+  url: https://aitoolly.com/
+  submit_url: https://aitoolly.com/
+  category: ai_tool
+  dr: 67.0
+  monthly_traffic_est: 155
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Best AI Tools Directory - Find Top AI Applications
+- name: Spotsaas Com
+  domain: spotsaas.com
+  url: https://www.spotsaas.com/
+  submit_url: https://www.spotsaas.com/
+  category: ai_tool
+  dr: 66.0
+  monthly_traffic_est: 36163
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Find & Compare Top Business Software Easily with Spotsaas
+- name: Toolsfine Com
+  domain: toolsfine.com
+  url: https://toolsfine.com/
+  submit_url: https://toolsfine.com/
+  category: ai_tool
+  dr: 66.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Toolsfine - Best AI Tools Directory
+- name: Pitchwall Co
+  domain: pitchwall.co
+  url: https://pitchwall.co/product/submit
+  submit_url: https://pitchwall.co/product/submit
+  category: dev_tool
+  dr: 65.0
+  monthly_traffic_est: 3550
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: PitchWall - Login to Your Account
+- name: Acidtools Com
+  domain: acidtools.com
+  url: https://acidtools.com/submit
+  submit_url: https://acidtools.com/submit
+  category: ai_tool
+  dr: 64.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool to Acid Tools - Acid Tools
+- name: Startupstash Com
+  domain: startupstash.com
+  url: https://startupstash.com/
+  submit_url: https://startupstash.com/
+  category: startup_launch
+  dr: 64.0
+  monthly_traffic_est: 13911
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Startup Stash - A Curated Directory of Tools and Resources for Your Startup
+- name: Submissionwebdirectory Com
+  domain: submissionwebdirectory.com
+  url: https://www.submissionwebdirectory.com/
+  submit_url: https://www.submissionwebdirectory.com/
+  category: saas_general
+  dr: 62.0
+  monthly_traffic_est: 353
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submission Marketing Web Directory
+- name: Femaleswitch Com
+  domain: femaleswitch.com
+  url: https://www.femaleswitch.com/ai-startup-tools
+  submit_url: https://www.femaleswitch.com/ai-startup-tools
+  category: ai_tool
+  dr: 61.0
+  monthly_traffic_est: 174
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ''
+- name: Sprout24 Com
+  domain: sprout24.com
+  url: https://sprout24.com/hub/directory/
+  submit_url: https://sprout24.com/hub/directory/
+  category: dev_tool
+  dr: 61.0
+  monthly_traffic_est: 107
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Email Marketing Tools Directory - 200+ MarTech Tools -
+- name: Startupranking Com
+  domain: startupranking.com
+  url: https://www.startupranking.com/login
+  submit_url: https://www.startupranking.com/login
+  category: startup_launch
+  dr: 61.0
+  monthly_traffic_est: 11728
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Log In | Startup Ranking
+- name: Siteswebdirectory Com
+  domain: siteswebdirectory.com
+  url: https://www.siteswebdirectory.com/
+  submit_url: https://www.siteswebdirectory.com/
+  category: saas_general
+  dr: 60.0
+  monthly_traffic_est: 27
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Sites Directory
+- name: Microlaunch Net
+  domain: microlaunch.net
+  url: https://microlaunch.net/
+  submit_url: https://microlaunch.net/
+  category: startup_launch
+  dr: 59.0
+  monthly_traffic_est: 1437
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: World-class Tech Products on Microlaunch
+- name: Seewhatnewai Com
+  domain: seewhatnewai.com
+  url: https://www.seewhatnewai.com/
+  submit_url: https://www.seewhatnewai.com/
+  category: ai_tool
+  dr: 59.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: 'SeeWhatNewAI Directory: Discover AI tools | SeeWhatNewAI'
+- name: Openhunts Com
+  domain: openhunts.com
+  url: https://openhunts.com/projects/submit
+  submit_url: https://openhunts.com/projects/submit
+  category: startup_launch
+  dr: 58.0
+  monthly_traffic_est: 118
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Sign in | OpenHunts
+- name: Logicballs Com
+  domain: logicballs.com
+  url: https://logicballs.com/
+  submit_url: https://logicballs.com/
+  category: ai_tool
+  dr: 57.0
+  monthly_traffic_est: 21518
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AI That Asks Before It Assumes
+- name: Right Ai Com
+  domain: right-ai.com
+  url: https://right-ai.com/
+  submit_url: https://right-ai.com/
+  category: startup_launch
+  dr: 57.0
+  monthly_traffic_est: 11
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Discover and Compare the Best AI Tools, Easily Find Your Ideal AI Solution | RightAI Directory
+- name: Dokeyai Com
+  domain: dokeyai.com
+  url: https://dokeyai.com/
+  submit_url: https://dokeyai.com/
+  category: ai_tool
+  dr: 56.0
+  monthly_traffic_est: 1
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: DokeyAI - Best AI Websites and Tools 2024 | Latest AI Products Directory and Showcase
+- name: Aixcollection Com
+  domain: aixcollection.com
+  url: https://aixcollection.com/submit
+  submit_url: https://aixcollection.com/submit
+  category: ai_tool
+  dr: 55.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool to AI X Collection - AI X Collection
+- name: Productwing Com
+  domain: productwing.com
+  url: https://productwing.com/submit
+  submit_url: https://productwing.com/submit
+  category: ai_tool
+  dr: 55.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Product to Product Wing - Product Wing
+- name: Firsto Co
+  domain: firsto.co
+  url: https://firsto.co/
+  submit_url: https://firsto.co/
+  category: startup_launch
+  dr: 53.0
+  monthly_traffic_est: 6703
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Firsto - Fair Product Launch Platform Where Every Launch Gets Seen
+- name: Highrankdirectory Com
+  domain: highrankdirectory.com
+  url: https://highrankdirectory.com/
+  submit_url: https://highrankdirectory.com/
+  category: saas_general
+  dr: 53.0
+  monthly_traffic_est: 123
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: High Rank Web SEO Submit directory For Quality Websites including Hosing, Forex, Currency Trading and other Business
+- name: Submitmysaas Com
+  domain: submitmysaas.com
+  url: https://www.submitmysaas.com/projects/submit
+  submit_url: https://www.submitmysaas.com/projects/submit
+  category: ai_tool
+  dr: 52.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: SubmitMySaas - Discover the Best Tech Products
+- name: Aitoolgo Com
+  domain: aitoolgo.com
+  url: https://www.aitoolgo.com/
+  submit_url: https://www.aitoolgo.com/
+  category: startup_launch
+  dr: 52.0
+  monthly_traffic_est: 2823
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: 'AiToolGo: Discover Best AI Tools & Learning Resources | AI Search-Enhanced Learning Platform'
+- name: Curated Design
+  domain: curated.design
+  url: https://www.curated.design/
+  submit_url: https://www.curated.design/
+  category: startup_launch
+  dr: 52.0
+  monthly_traffic_est: 7
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Curated Inspiration
+- name: Saashunt Best
+  domain: saashunt.best
+  url: https://saashunt.best/dashboard
+  submit_url: https://saashunt.best/dashboard
+  category: startup_launch
+  dr: 51.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: SaasHunt - Discover the Best Tech Products
+- name: Aitechviral Com
+  domain: aitechviral.com
+  url: https://aitechviral.com/submit
+  submit_url: https://aitechviral.com/submit
+  category: ai_tool
+  dr: 50.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool to AI Tech Viral - AI Tech Viral
+- name: Mylaunchstash Com
+  domain: mylaunchstash.com
+  url: https://mylaunchstash.com/submit
+  submit_url: https://mylaunchstash.com/submit
+  category: startup_launch
+  dr: 50.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Launch to My Launch Stash - My Launch Stash
+- name: Scriptbyai Com
+  domain: scriptbyai.com
+  url: https://www.scriptbyai.com/
+  submit_url: https://www.scriptbyai.com/
+  category: ai_tool
+  dr: 49.0
+  monthly_traffic_est: 155
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Best Free AI Tools and Resources - ScriptByAI
+- name: Bai Tools
+  domain: bai.tools
+  url: https://bai.tools/submit-ai-tools
+  submit_url: https://bai.tools/submit-ai-tools
+  category: ai_tool
+  dr: 48.0
+  monthly_traffic_est: 549
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ''
+- name: Huzzler So
+  domain: huzzler.so
+  url: https://huzzler.so/
+  submit_url: https://huzzler.so/
+  category: startup_launch
+  dr: 48.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Huzzler - Connect, Launch & Grow Your Startup | Builder Community
+- name: Rundown Ai
+  domain: rundown.ai
+  url: https://www.rundown.ai/submit
+  submit_url: https://www.rundown.ai/submit
+  category: ai_tool
+  dr: 48.0
+  monthly_traffic_est: 67242
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool
+- name: Aitoolzs Com
+  domain: aitoolzs.com
+  url: https://aitoolzs.com/submit
+  submit_url: https://aitoolzs.com/submit
+  category: ai_tool
+  dr: 48.0
+  monthly_traffic_est: 2
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool to AI Toolz - AI Toolz
+- name: Ideakiln Com
+  domain: ideakiln.com
+  url: https://ideakiln.com/
+  submit_url: https://ideakiln.com/
+  category: startup_launch
+  dr: 48.0
+  monthly_traffic_est: 1
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ''
+- name: Insidr Ai
+  domain: insidr.ai
+  url: https://www.insidr.ai/ai-tools/
+  submit_url: https://www.insidr.ai/ai-tools/
+  category: ai_tool
+  dr: 48.0
+  monthly_traffic_est: 562
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: 500+ Best AI Tools - Complete AI Tools Directory (2025)
+- name: Poweruptools Com
+  domain: poweruptools.com
+  url: https://poweruptools.com/submit
+  submit_url: https://poweruptools.com/submit
+  category: ai_tool
+  dr: 48.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool to Power Up Tools - Power Up Tools
+- name: Projecthunt Me
+  domain: projecthunt.me
+  url: https://projecthunt.me/
+  submit_url: https://projecthunt.me/
+  category: ai_tool
+  dr: 48.0
+  monthly_traffic_est: 26
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ProjectHunt - Discover and share projects
+- name: Cuspera Com
+  domain: cuspera.com
+  url: https://www.cuspera.com/
+  submit_url: https://www.cuspera.com/
+  category: dev_tool
+  dr: 47.0
+  monthly_traffic_est: 3735
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: 'Cuspera : Right Software solutions for your Business Needs'
+- name: Dealmirror Com
+  domain: dealmirror.com
+  url: https://dealmirror.com/
+  submit_url: https://dealmirror.com/
+  category: saas_general
+  dr: 47.0
+  monthly_traffic_est: 738
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: DealMirror - Lifetime Software Deals at Unbeatable Prices
+- name: Techpluto Com
+  domain: techpluto.com
+  url: https://techpluto.com/submit-a-startup/
+  submit_url: https://techpluto.com/submit-a-startup/
+  category: dev_tool
+  dr: 47.0
+  monthly_traffic_est: 6769
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit A Startup - TechPluto - Latest Startup & Tech News
+- name: Thatappshow Com
+  domain: thatappshow.com
+  url: https://thatappshow.com/submit
+  submit_url: https://thatappshow.com/submit
+  category: ai_tool
+  dr: 47.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Product to That App Show - That App Show
+- name: Launch List Org
+  domain: launch-list.org
+  url: https://www.launch-list.org/
+  submit_url: https://www.launch-list.org/
+  category: startup_launch
+  dr: 46.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Launch List - Launch Your Product on Product Hunt and 100+ websites
+- name: Aigc160 Com
+  domain: aigc160.com
+  url: https://aigc160.com/submit
+  submit_url: https://aigc160.com/submit
+  category: ai_tool
+  dr: 46.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool to AIGC 160 - AIGC 160
+- name: Mystarttools Com
+  domain: mystarttools.com
+  url: https://mystarttools.com/submit
+  submit_url: https://mystarttools.com/submit
+  category: ai_tool
+  dr: 46.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Tool to My Start Tools - My Start Tools
+- name: Saaswheel Com
+  domain: saaswheel.com
+  url: https://saaswheel.com/submit
+  submit_url: https://saaswheel.com/submit
+  category: ai_tool
+  dr: 46.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your SaaS Product to SaaS Wheel - SaaS Wheel
+- name: Scoutforge Net
+  domain: scoutforge.net
+  url: https://scoutforge.net/
+  submit_url: https://scoutforge.net/
+  category: dev_tool
+  dr: 46.0
+  monthly_traffic_est: 52
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Scout Forge | Discover and Review New Apps Safely
+- name: Softwarebolt Com
+  domain: softwarebolt.com
+  url: https://softwarebolt.com/submit
+  submit_url: https://softwarebolt.com/submit
+  category: ai_tool
+  dr: 46.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Product to Software Bolt - Software Bolt
+- name: Startupvessel Com
+  domain: startupvessel.com
+  url: https://startupvessel.com/
+  submit_url: https://startupvessel.com/
+  category: startup_launch
+  dr: 46.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Startup Software for Founders Building Their Operating Stack - Startup Vessel (2026)
+- name: Appsytools Com
+  domain: appsytools.com
+  url: https://appsytools.com/submit
+  submit_url: https://appsytools.com/submit
+  category: ai_tool
+  dr: 45.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Tool to Appsy Tools - Appsy Tools
+- name: Launchscroll Com
+  domain: launchscroll.com
+  url: https://launchscroll.com/submit
+  submit_url: https://launchscroll.com/submit
+  category: startup_launch
+  dr: 45.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Launch to Launch Scroll - Launch Scroll
+- name: Beamtools Com
+  domain: beamtools.com
+  url: https://beamtools.com/submit
+  submit_url: https://beamtools.com/submit
+  category: ai_tool
+  dr: 44.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Tool to Beam Tools - Beam Tools
+- name: Productlistdir Com
+  domain: productlistdir.com
+  url: https://productlistdir.com/submit
+  submit_url: https://productlistdir.com/submit
+  category: ai_tool
+  dr: 44.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Product to Product List Dir - Product List Dir
+- name: Toolfinddir Com
+  domain: toolfinddir.com
+  url: https://toolfinddir.com/submit
+  submit_url: https://toolfinddir.com/submit
+  category: ai_tool
+  dr: 44.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool to Tool Find Dir - Tool Find Dir
+- name: Toolsaiapp Com
+  domain: toolsaiapp.com
+  url: https://toolsaiapp.com/submit-your-ai-tool/
+  submit_url: https://toolsaiapp.com/submit-your-ai-tool/
+  category: ai_tool
+  dr: 44.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool - Directory Tools AI
+- name: Bestofai Com
+  domain: bestofai.com
+  url: https://bestofai.com/
+  submit_url: https://bestofai.com/
+  category: ai_tool
+  dr: 43.0
+  monthly_traffic_est: 3313
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ''
+- name: Saashubdirectory Com
+  domain: saashubdirectory.com
+  url: https://saashubdirectory.com/submit
+  submit_url: https://saashubdirectory.com/submit
+  category: ai_tool
+  dr: 43.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your SaaS Product to SaaS Hub Directory - SaaS Hub Directory
+- name: Stackdirectory Com
+  domain: stackdirectory.com
+  url: https://stackdirectory.com/submit
+  submit_url: https://stackdirectory.com/submit
+  category: ai_tool
+  dr: 43.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Product to Stack Directory - Stack Directory
+- name: Toptrendtools Com
+  domain: toptrendtools.com
+  url: https://toptrendtools.com/submit
+  submit_url: https://toptrendtools.com/submit
+  category: dev_tool
+  dr: 43.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Tool to Top Trend Tools - Top Trend Tools
+- name: Saastoolsdir Com
+  domain: saastoolsdir.com
+  url: https://saastoolsdir.com/submit
+  submit_url: https://saastoolsdir.com/submit
+  category: ai_tool
+  dr: 42.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your SaaS Product to SaaS Tools Dir - SaaS Tools Dir
+- name: Sourcedir Com
+  domain: sourcedir.com
+  url: https://sourcedir.com/submit
+  submit_url: https://sourcedir.com/submit
+  category: ai_tool
+  dr: 42.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Product to Source Dir - Source Dir
+- name: Thekeytools Com
+  domain: thekeytools.com
+  url: https://thekeytools.com/submit
+  submit_url: https://thekeytools.com/submit
+  category: ai_tool
+  dr: 42.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool to The Key Tools - The Key Tools
+- name: Toolslisthq Com
+  domain: toolslisthq.com
+  url: https://toolslisthq.com/submit
+  submit_url: https://toolslisthq.com/submit
+  category: ai_tool
+  dr: 42.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Tool to Tools List HQ - Tools List HQ
+- name: Madewithlaravel Com
+  domain: madewithlaravel.com
+  url: https://madewithlaravel.com/
+  submit_url: https://madewithlaravel.com/
+  category: saas_general
+  dr: 41.0
+  monthly_traffic_est: 1802
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Laravel Showcase - Made with Laravel
+- name: Latestaiupdates Com
+  domain: latestaiupdates.com
+  url: https://latestaiupdates.com/submit
+  submit_url: https://latestaiupdates.com/submit
+  category: ai_tool
+  dr: 41.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool to Latest AI Updates - Latest AI Updates
+- name: Saasroots Com
+  domain: saasroots.com
+  url: https://saasroots.com/submit
+  submit_url: https://saasroots.com/submit
+  category: ai_tool
+  dr: 41.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your SaaS Product to SaaS Roots - SaaS Roots
+- name: Superaiboom Com
+  domain: superaiboom.com
+  url: https://superaiboom.com/submit
+  submit_url: https://superaiboom.com/submit
+  category: ai_tool
+  dr: 41.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool to Super AI Boom - Super AI Boom
+- name: Thecoretools Com
+  domain: thecoretools.com
+  url: https://thecoretools.com/submit
+  submit_url: https://thecoretools.com/submit
+  category: ai_tool
+  dr: 41.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Tool to The Core Tools - The Core Tools
+- name: Tinytoolhub Com
+  domain: tinytoolhub.com
+  url: https://tinytoolhub.com/submit
+  submit_url: https://tinytoolhub.com/submit
+  category: dev_tool
+  dr: 41.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Tool to Tiny Tool Hub - Tiny Tool Hub
+- name: Tipseason Com
+  domain: tipseason.com
+  url: https://tipseason.com/
+  submit_url: https://tipseason.com/
+  category: ai_tool
+  dr: 41.0
+  monthly_traffic_est: 1432
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: 'TipSeason: AI Tools, Prompts & Courses to Grow Your Business'
+- name: Tooljourney Com
+  domain: tooljourney.com
+  url: https://tooljourney.com/submit
+  submit_url: https://tooljourney.com/submit
+  category: ai_tool
+  dr: 41.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Tool to Tool Journey - Tool Journey
+- name: Toolprism Com
+  domain: toolprism.com
+  url: https://toolprism.com/submit
+  submit_url: https://toolprism.com/submit
+  category: ai_tool
+  dr: 41.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI Tool to Tool Prism - Tool Prism
+- name: Toolsignal Com
+  domain: toolsignal.com
+  url: https://toolsignal.com/submit
+  submit_url: https://toolsignal.com/submit
+  category: dev_tool
+  dr: 41.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Tool to Tool Signal - Tool Signal
+- name: Aitoolsmarketer Com
+  domain: aitoolsmarketer.com
+  url: https://aitoolsmarketer.com/
+  submit_url: https://aitoolsmarketer.com/
+  category: startup_launch
+  dr: 40.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: 3,500+ AI Tools Directory - Find the Best AI Software (2026)
+- name: Theapptools Com
+  domain: theapptools.com
+  url: https://theapptools.com/submit
+  submit_url: https://theapptools.com/submit
+  category: ai_tool
+  dr: 40.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your AI App to The App Tools - The App Tools
+- name: Themegatools Com
+  domain: themegatools.com
+  url: https://themegatools.com/submit
+  submit_url: https://themegatools.com/submit
+  category: ai_tool
+  dr: 40.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Tool to The Mega Tools - The Mega Tools
+- name: Toolcosmos Com
+  domain: toolcosmos.com
+  url: https://toolcosmos.com/submit
+  submit_url: https://toolcosmos.com/submit
+  category: dev_tool
+  dr: 40.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Tool to Tool Cosmos - Tool Cosmos
+- name: Toolsunderradar Com
+  domain: toolsunderradar.com
+  url: https://toolsunderradar.com/submit
+  submit_url: https://toolsunderradar.com/submit
+  category: ai_tool
+  dr: 40.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Tool to Tools Under Radar - Tools Under Radar
+- name: Featuredtool Com
+  domain: featuredtool.com
+  url: https://featuredtool.com/
+  submit_url: https://featuredtool.com/
+  category: dev_tool
+  dr: 39.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Discover Best Useful Online Tools - FeaturedTool.com
+- name: Launchvault Dev
+  domain: launchvault.dev
+  url: https://www.launchvault.dev/projects/submit
+  submit_url: https://www.launchvault.dev/projects/submit
+  category: startup_launch
+  dr: 38.0
+  monthly_traffic_est: 226
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Launch Vault - Discover the Best Tech Products
+- name: Aiai Tools
+  domain: aiai.tools
+  url: https://aiai.tools/
+  submit_url: https://aiai.tools/
+  category: ai_tool
+  dr: 38.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Best Ai Tools List & Free AI Tools Directory - AIAI.Tools
+- name: Huntscreens Com
+  domain: huntscreens.com
+  url: https://huntscreens.com/en
+  submit_url: https://huntscreens.com/en
+  category: startup_launch
+  dr: 38.0
+  monthly_traffic_est: 477
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: HuntScreens - Daily Updates of Latest Products, AI Tools & Startups
+- name: Allyourtech Ai
+  domain: allyourtech.ai
+  url: https://allyourtech.ai/ai-tools/submit
+  submit_url: https://allyourtech.ai/ai-tools/submit
+  category: ai_tool
+  dr: 37.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit AI Tool | AllYourTech | AllYourTech
+- name: Ainavhub Com
+  domain: ainavhub.com
+  url: https://ainavhub.com/
+  submit_url: https://ainavhub.com/
+  category: saas
+  dr: 36.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ''
+- name: Openlaunch Ai
+  domain: openlaunch.ai
+  url: https://openlaunch.ai/projects/submit
+  submit_url: https://openlaunch.ai/projects/submit
+  category: startup_launch
+  dr: 36.0
+  monthly_traffic_est: 45
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Open Launch - Alternatives to Product Hunt
+- name: 600 Tools
+  domain: 600.tools
+  url: https://600.tools/
+  submit_url: https://600.tools/
+  category: dev_tool
+  dr: 36.0
+  monthly_traffic_est: 40
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: '600.tools: Explore 600 curated tools for every purpose'
+- name: Saaspa Ge
+  domain: saaspa.ge
+  url: https://www.saaspa.ge/submit
+  submit_url: https://www.saaspa.ge/submit
+  category: startup_launch
+  dr: 36.0
+  monthly_traffic_est: 26
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Saaspa.ge - The Best New Products, Every Day
+- name: Nextjsstarter Com
+  domain: nextjsstarter.com
+  url: https://nextjsstarter.com/
+  submit_url: https://nextjsstarter.com/
+  category: saas_general
+  dr: 34.0
+  monthly_traffic_est: 49
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ''
+- name: Devhub Best
+  domain: devhub.best
+  url: https://devhub.best/dashboard
+  submit_url: https://devhub.best/dashboard
+  category: startup_launch
+  dr: 33.0
+  monthly_traffic_est: 1
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: DevHub - Discover the Best Tech Products
+- name: Aitoolguru Com
+  domain: aitoolguru.com
+  url: https://aitoolguru.com/
+  submit_url: https://aitoolguru.com/
+  category: ai_tool
+  dr: 31.0
+  monthly_traffic_est: 2010
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AI Tool Guru - The best and largest AI tools directory
+- name: Ainavbar Ai
+  domain: ainavbar.ai
+  url: https://ainavbar.ai
+  submit_url: https://ainavbar.ai
+  category: ai_tool
+  dr: 30.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AI Navbar. Your navbar to explore any kind of AI tools.
+- name: Submitjuice Com
+  domain: submitjuice.com
+  url: https://www.submitjuice.com/top-free-startup-directories-and-blogs?utm_source=chatgpt.com
+  submit_url: https://www.submitjuice.com/top-free-startup-directories-and-blogs?utm_source=chatgpt.com
+  category: startup_launch
+  dr: 30.0
+  monthly_traffic_est: 14
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: 152+ Free Directories and Blogs to List Your Startup | Submit Juice
+- name: Gptbot Io
+  domain: gptbot.io
+  url: https://gptbot.io/ai-tools/
+  submit_url: https://gptbot.io/ai-tools/
+  category: ai_tool
+  dr: 29.0
+  monthly_traffic_est: 4295
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: The Ultimate AI Tools Directory - GPTBot | Discover the Best AI Tools
+- name: A2dventures Com
+  domain: a2dventures.com
+  url: https://www.a2dventures.com/submit-a-pitch
+  submit_url: https://www.a2dventures.com/submit-a-pitch
+  category: dev_tool
+  dr: 27.0
+  monthly_traffic_est: 177
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ''
+- name: Aidepot Co
+  domain: aidepot.co
+  url: https://aidepot.co/
+  submit_url: https://aidepot.co/
+  category: ai_tool
+  dr: 26.0
+  monthly_traffic_est: 104
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AI Depot
+- name: Aigems Net
+  domain: aigems.net
+  url: https://aigems.net/
+  submit_url: https://aigems.net/
+  category: ai_tool
+  dr: 23.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AI Gems - Large directory of AI Tools
+- name: Ainave Com
+  domain: ainave.com
+  url: https://www.ainave.com/
+  submit_url: https://www.ainave.com/
+  category: ai_tool
+  dr: 23.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AINave - The OS for AI builders
+- name: Desifounder Com
+  domain: desifounder.com
+  url: https://desifounder.com/
+  submit_url: https://desifounder.com/
+  category: dev_tool
+  dr: 21.0
+  monthly_traffic_est: 1
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Desifounder | Startup Community, News & Product&#xA0;Launches
+- name: Lachief Io
+  domain: lachief.io
+  url: https://www.lachief.io/
+  submit_url: https://www.lachief.io/
+  category: ai_tool
+  dr: 21.0
+  monthly_traffic_est: 9680
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ''
+- name: Noteableai Com
+  domain: noteableai.com
+  url: https://noteableai.com/add-listing/
+  submit_url: https://noteableai.com/add-listing/
+  category: ai_tool
+  dr: 21.0
+  monthly_traffic_est: 7
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Add Listing
+- name: Theainavigator Com
+  domain: theainavigator.com
+  url: https://www.theainavigator.com/
+  submit_url: https://www.theainavigator.com/
+  category: ai_tool
+  dr: 21.0
+  monthly_traffic_est: 1063
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: The AI Navigator | Your Guide Through the World of AI
+- name: Racetoship Com
+  domain: racetoship.com
+  url: https://racetoship.com/products/submit
+  submit_url: https://racetoship.com/products/submit
+  category: startup_launch
+  dr: 20.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: RaceToShip - Launch Your Product, Join the Race, Get Real Users
+- name: Startupcollections Com
+  domain: startupcollections.com
+  url: https://startupcollections.com/
+  submit_url: https://startupcollections.com/
+  category: startup_launch
+  dr: 20.0
+  monthly_traffic_est: 30
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Startup Collections - Resources and Tools for Starters
+- name: Startupproject Org
+  domain: startupproject.org
+  url: https://www.startupproject.org/
+  submit_url: https://www.startupproject.org/
+  category: startup_launch
+  dr: 20.0
+  monthly_traffic_est: 289
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: The Startup Project - Free Templates, Tools & Guides for Founders
+- name: Totool Cc
+  domain: totool.cc
+  url: https://totool.cc/
+  submit_url: https://totool.cc/
+  category: ai_tool
+  dr: 20.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Totool - To Your Best Tool
+- name: Internetisbeautiful Com
+  domain: internetisbeautiful.com
+  url: https://internetisbeautiful.com/
+  submit_url: https://internetisbeautiful.com/
+  category: saas_general
+  dr: 19.0
+  monthly_traffic_est: 9
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Home | Internet Is Beautiful
+- name: Sites Plus Com
+  domain: sites-plus.com
+  url: https://www.sites-plus.com/
+  submit_url: https://www.sites-plus.com/
+  category: saas_general
+  dr: 19.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Sites Plus Web Directory
+- name: Aisupersmart Com
+  domain: aisupersmart.com
+  url: https://www.aisupersmart.com/
+  submit_url: https://www.aisupersmart.com/
+  category: ai_tool
+  dr: 18.0
+  monthly_traffic_est: 38
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AiSuperSmart - Ai Tool Directory & Latest Ai News
+- name: Aitogrow Com
+  domain: aitogrow.com
+  url: https://aitogrow.com/
+  submit_url: https://aitogrow.com/
+  category: startup_launch
+  dr: 16.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Use AI to Grow Your Startup - AItoGrow
+- name: Aitoolfor Org
+  domain: aitoolfor.org
+  url: https://aitoolfor.org/
+  submit_url: https://aitoolfor.org/
+  category: ai_tool
+  dr: 16.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: All Top AI Tools - Curated by John Rush
+- name: Anyfp Com
+  domain: anyfp.com
+  url: https://anyfp.com/contact/
+  submit_url: https://anyfp.com/contact/
+  category: ai_tool
+  dr: 16.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Ai Tool &bull; ANYFP
+- name: Promptzone Com
+  domain: promptzone.com
+  url: https://www.promptzone.com/
+  submit_url: https://www.promptzone.com/
+  category: ai_tool
+  dr: 16.0
+  monthly_traffic_est: 57
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: PromptZone - Leading AI Community for Prompt Engineering and AI Enthusiasts
+- name: Ainewsbase Com
+  domain: ainewsbase.com
+  url: https://ainewsbase.com/best-ai-tools-2023-artificial-intelligence-uses/
+  submit_url: https://ainewsbase.com/best-ai-tools-2023-artificial-intelligence-uses/
+  category: ai_tool
+  dr: 15.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: 50+ Best AI Tools
+- name: Stackviv Ai
+  domain: stackviv.ai
+  url: https://stackviv.ai/
+  submit_url: https://stackviv.ai/
+  category: startup_launch
+  dr: 15.0
+  monthly_traffic_est: 1
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Stackviv - Free AI Tools & Agents Directory
+- name: Toolbox Talentgenius Io
+  domain: toolbox.talentgenius.io
+  url: https://toolbox.talentgenius.io/
+  submit_url: https://toolbox.talentgenius.io/
+  category: saas_general
+  dr: 15.0
+  monthly_traffic_est: 381
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: TalentGenius | AI Solutions
+- name: Appsandwebsites Com
+  domain: appsandwebsites.com
+  url: https://appsandwebsites.com/directory/
+  submit_url: https://appsandwebsites.com/directory/
+  category: ai_tool
+  dr: 14.0
+  monthly_traffic_est: 20
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AI AND SAAS TOOLS DIRECTORY - appsandwebsites.com
+- name: Future Pedia Com
+  domain: future-pedia.com
+  url: https://www.future-pedia.com/
+  submit_url: https://www.future-pedia.com/
+  category: ai_tool
+  dr: 14.0
+  monthly_traffic_est: 1623
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: FuturePedia AI Tools Directory
+- name: Once Tools
+  domain: once.tools
+  url: https://once.tools/
+  submit_url: https://once.tools/
+  category: startup_launch
+  dr: 14.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Your guide to software you only have to pay for once - once.tools
+- name: Taalk Com
+  domain: taalk.com
+  url: https://taalk.com/free-submmission/
+  submit_url: https://taalk.com/free-submmission/
+  category: dev_tool
+  dr: 14.0
+  monthly_traffic_est: 83
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 5
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submit Your Startup to Taalk - taalk
+- name: Ailisting Ai
+  domain: ailisting.ai
+  url: https://www.ailisting.ai/
+  submit_url: https://www.ailisting.ai/
+  category: ai_tool
+  dr: 12.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ''
+- name: Aioftheday Com
+  domain: aioftheday.com
+  url: https://aioftheday.com/
+  submit_url: https://aioftheday.com/
+  category: ai_tool
+  dr: 12.0
+  monthly_traffic_est: 36
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AI of The Day - Find the Best of AI Everyday!
+- name: Aitoolsup Com
+  domain: aitoolsup.com
+  url: https://aitoolsup.com/submit-tool/
+  submit_url: https://aitoolsup.com/submit-tool/
+  category: ai_tool
+  dr: 11.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: 'Submit Your AI Tools for Free: Boost Visibility, Get traffic! - AI Tools Up'
+- name: Yaatd Com
+  domain: yaatd.com
+  url: https://yaatd.com/submit/
+  submit_url: https://yaatd.com/submit/
+  category: ai_tool
+  dr: 11.0
+  monthly_traffic_est: 0
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ''
+- name: Ai Tool Ai
+  domain: ai-tool.ai
+  url: https://ai-tool.ai/
+  submit_url: https://ai-tool.ai/
+  category: ai_tool
+  dr: 11.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AI Tools Directory - Discover the Best AI Tools in One Place
+- name: Listyourtool Com
+  domain: listyourtool.com
+  url: https://www.listyourtool.com/submit-tool
+  submit_url: https://www.listyourtool.com/submit-tool
+  category: ai_tool
+  dr: 11.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ListYourTool.com - AI Tools Directory
+- name: Nextgentools Me
+  domain: nextgentools.me
+  url: https://nextgentools.me/
+  submit_url: https://nextgentools.me/
+  category: ai_tool
+  dr: 11.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: A curated list of the best AI tools - NextGenTools
+- name: Sharefast Co
+  domain: sharefast.co
+  url: https://sharefast.co/submit
+  submit_url: https://sharefast.co/submit
+  category: ai_tool
+  dr: 11.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: 'Share Fast: Share Tools, Discover Projects & Boost Exposure | DA Backlinks'
+- name: Brouseai Com
+  domain: brouseai.com
+  url: https://www.brouseai.com/submission/ai
+  submit_url: https://www.brouseai.com/submission/ai
+  category: saas_general
+  dr: 10.0
+  monthly_traffic_est: 22305
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: Submission | BroUseAI
+- name: Newaiforyou Com
+  domain: newaiforyou.com
+  url: https://newaiforyou.com/
+  submit_url: https://newaiforyou.com/
+  category: saas
+  dr: 10.0
+  monthly_traffic_est: 24
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 3
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: ''
+- name: Spiff Store
+  domain: spiff.store
+  url: https://spiff.store/
+  submit_url: https://spiff.store/
+  category: ai_tool
+  dr: 10.0
+  monthly_traffic_est: 0
+  form_complexity: medium
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AI Tools Directory - Discover the Best AI Tools and Websites
+- name: Toolhunter Ai
+  domain: toolhunter.ai
+  url: https://www.toolhunter.ai/submit-a-tool
+  submit_url: https://www.toolhunter.ai/submit-a-tool
+  category: ai_tool
+  dr: 7.0
+  monthly_traffic_est: 1007
+  form_complexity: medium
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: 4
+  priority: medium
+  adapter: generic
+  source: validated
+  notes: AI Tools | Submit a New AI Tool
+- name: 700.tools
+  domain: 700.tools
+  url: https://700.tools/
+  submit_url: https://700.tools/add
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AI-Hunter.io
+  domain: ai-hunter.io
+  url: https://ai-hunter.io/
+  submit_url: https://ai-hunter.io/submit-ai-tool/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: 2000+ AI tools
+- name: Ai Business Tool
+  domain: aibusinesstool.com
+  url: https://aibusinesstool.com/
+  submit_url: https://aibusinesstool.com/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AI Tool For Business
+  domain: aitoolforbusiness.com
+  url: https://aitoolforbusiness.com/
+  submit_url: https://aitoolforbusiness.com/submit-ai-tool/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: aitoolhunt
+  domain: aitoolhunt.com
+  url: https://aitoolhunt.com/
+  submit_url: https://www.aitoolhunt.com/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AIToolMall
+  domain: aitoolmall.com
+  url: https://aitoolmall.com/
+  submit_url: https://aitoolmall.com/submit/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AIToolsDirectory
+  domain: aitoolsdirectory.com
+  url: https://aitoolsdirectory.com/
+  submit_url: https://aitoolsdirectory.com/submit-tool
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: aitoolslist.io
+  domain: aitoolslist.io
+  url: https://aitoolslist.io/
+  submit_url: https://aitoolslist.io/submit-ai-tool/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AI Tools Masters
+  domain: aitoolsmasters.com
+  url: https://aitoolsmasters.com/
+  submit_url: https://aitoolsmasters.com/add-ai-tools/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AITopTools
+  domain: aitoptools.com
+  url: https://aitoptools.com/
+  submit_url: https://aitoptools.com/login?redirect_to=submit
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: Requires login
+- name: AIWikiTools
+  domain: aiwikitools.com
+  url: https://aiwikitools.com/
+  submit_url: https://aiwikitools.com/submit-a-tool/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: All Startups
+  domain: allstartups.info
+  url: https://allstartups.info/
+  submit_url: http://www.allstartups.info/Startups/Submit
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AlternativeTo
+  domain: alternativeto.net
+  url: https://alternativeto.net/
+  submit_url: https://alternativeto.net/faq/
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: Major alternative software directory
+- name: bigstartups.co
+  domain: bigstartups.co
+  url: https://bigstartups.co/
+  submit_url: https://bigstartups.co/overview/list-product
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Crozdesk
+  domain: crozdesk.com
+  url: https://crozdesk.com/
+  submit_url: https://crozdesk.com/submit-software
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: B2B software directory
+- name: DevHunt
+  domain: devhunt.org
+  url: https://devhunt.org/
+  submit_url: https://devhunt.org/
+  category: dev_tools
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: devhunt
+  source: filtered
+  notes: Curated dev tool directory, GitHub OAuth login
+- name: DigiProToolz
+  domain: digiprotoolz.com
+  url: https://digiprotoolz.com/
+  submit_url: https://digiprotoolz.com/contact-us/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: findcool.tools
+  domain: findcool.tools
+  url: https://findcool.tools/
+  submit_url: https://www.findcool.tools/submit-tool
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Toolbase.io
+  domain: form.typeform.com
+  url: https://form.typeform.com/
+  submit_url: https://form.typeform.com/to/LQcTJr
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: Typeform
+- name: Free AI Tools Directory
+  domain: free-ai-tools-directory.com
+  url: https://free-ai-tools-directory.com/
+  submit_url: https://free-ai-tools-directory.com/submit-request/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Free AI Tool
+  domain: freeaitool.ai
+  url: https://freeaitool.ai/
+  submit_url: https://freeaitool.ai/submit
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: 24h fast review
+- name: Full Stack AI
+  domain: fullstackai.co
+  url: https://fullstackai.co/
+  submit_url: https://fullstackai.co/submit-a-tool/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Future AGI Tools
+  domain: futureagitools.com
+  url: https://futureagitools.com/
+  submit_url: https://www.futureagitools.com/submit-a-site
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Indie Tools
+  domain: indietools.co
+  url: https://indietools.co/
+  submit_url: https://indietools.co/
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: insanelycooltools
+  domain: insanelycooltools.com
+  url: https://insanelycooltools.com/
+  submit_url: https://www.insanelycooltools.com/submit
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: KillerStartups
+  domain: killerstartups.com
+  url: https://killerstartups.com/
+  submit_url: https://www.killerstartups.com/submit-startup/
+  category: startup
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: Startup directory
+- name: Launched!
+  domain: launched.io
+  url: https://launched.io/
+  submit_url: https://launched.io/
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Launching Today
+  domain: launching.today
+  url: https://launching.today/
+  submit_url: https://www.launching.today/
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Nextool AI
+  domain: nextool.ai
+  url: https://nextool.ai/
+  submit_url: https://www.nextool.ai/submit-a-tool
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Prime Indies
+  domain: primeindies.com
+  url: https://primeindies.com/
+  submit_url: https://primeindies.com/
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: SaaSHub
+  domain: saashub.com
+  url: https://saashub.com/
+  submit_url: https://www.saashub.com/new
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: saashub
+  source: filtered
+  notes: Major SaaS directory, requires email login
+- name: StackShare
+  domain: stackshare.io
+  url: https://stackshare.io/
+  submit_url: https://stackshare.io/services/new
+  category: dev_tools
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: true
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: stackshare
+  source: filtered
+  notes: Requires account, tool/service catalog
+- name: Startup AI tools
+  domain: startupaitools.com
+  url: https://startupaitools.com/
+  submit_url: https://www.startupaitools.com/submit-ai-tools/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: StartupBase
+  domain: startupbase.io
+  url: https://startupbase.io/
+  submit_url: https://startupbase.io/
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Super AI Tools
+  domain: superaitools.io
+  url: https://superaitools.io/
+  submit_url: https://www.superaitools.io/submit-a-tool
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Supertools
+  domain: supertools.therundown.ai
+  url: https://supertools.therundown.ai/
+  submit_url: https://supertools.therundown.ai/submit
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: ToolsFine
+  domain: tally.so
+  url: https://tally.so/
+  submit_url: https://tally.so/r/wvB7Xg
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: Tally form
+- name: techdirectory.io
+  domain: techdirectory.io
+  url: https://techdirectory.io/
+  submit_url: https://www.techdirectory.io/get-listed
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: TechFaster
+  domain: techfaster.com
+  url: https://techfaster.com/
+  submit_url: http://techfaster.com/submit-your-company/
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: The Startup Pitch
+  domain: thestartuppitch.com
+  url: https://thestartuppitch.com/
+  submit_url: https://thestartuppitch.com/post-a-pitch/
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: ToolsAI.net
+  domain: toolsai.net
+  url: https://toolsai.net/
+  submit_url: https://toolsai.net/add-listing/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: ToolScout
+  domain: toolscout.ai
+  url: https://toolscout.ai/
+  submit_url: https://toolscout.ai/submit
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: ToolStory.net
+  domain: toolsstory.net
+  url: https://toolsstory.net/
+  submit_url: https://toolsstory.net/add-listing/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Twelve.tools
+  domain: twelve.tools
+  url: https://twelve.tools/
+  submit_url: https://twelve.tools/submit-your-tool
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: WebsiteHunt
+  domain: websitehunt.co
+  url: https://websitehunt.co/
+  submit_url: https://www.websitehunt.co/
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: WhatLaunched.Today
+  domain: whatlaunched.today
+  url: https://whatlaunched.today/
+  submit_url: https://www.whatlaunched.today
+  category: saas
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: medium
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Aichattings Com
+  domain: aichattings.com
+  url: https://aichattings.com/
+  submit_url: https://aichattings.com/
+  category: ai_tool
+  dr: 41.0
+  monthly_traffic_est: 42792
+  form_complexity: low
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: 2
+  priority: low
+  adapter: generic
+  source: validated
+  notes: ''
+- name: AI Finder
+  domain: ai-finder.net
+  url: https://ai-finder.net/
+  submit_url: https://ai-finder.net/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AI Directory
+  domain: aidirectory.org
+  url: https://aidirectory.org/
+  submit_url: https://www.aidirectory.org/user-submit/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AiDude
+  domain: aidude.pro
+  url: https://aidude.pro/
+  submit_url: https://aidude.pro/submit-your-tool
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AIFINDY
+  domain: aifindy.com
+  url: https://aifindy.com/
+  submit_url: https://aifindy.com/contacto/publica-tu-ia-en-aifindy
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AI Homes
+  domain: aihomes.io
+  url: https://aihomes.io/
+  submit_url: https://aihomes.io/submit/submit-tool
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AILib
+  domain: ailib.ru
+  url: https://ailib.ru/
+  submit_url: https://ailib.ru/en/add-ai/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: Russian AI directory with English interface
+- name: AI Valley
+  domain: aivalley.ai
+  url: https://aivalley.ai/
+  submit_url: https://aivalley.ai/submit-tool/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AllThingsAI
+  domain: allthingsai.com
+  url: https://allthingsai.com/
+  submit_url: https://allthingsai.com
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: ChatGPTDemo.pro
+  domain: chatgptdemo.pro
+  url: https://chatgptdemo.pro/
+  submit_url: https://chatgptdemo.pro/submit-tool/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Draeno.io
+  domain: draeno.io
+  url: https://draeno.io/
+  submit_url: https://draeno.io/submit-a-tool/
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: DropYourAI
+  domain: dropyourai.com
+  url: https://dropyourai.com/
+  submit_url: https://www.dropyourai.com/submit-tool
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Human Alternative
+  domain: humanalternative.com
+  url: https://humanalternative.com/
+  submit_url: https://www.humanalternative.com/submit-resource/submit-a-tool
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Apps and Websites
+  domain: landing.mycloudmedia.co.uk
+  url: https://landing.mycloudmedia.co.uk/
+  submit_url: https://landing.mycloudmedia.co.uk/apps-and-websites-submit-ai-or-saas-tool/new-submission.html
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: AI Library
+  domain: library.phygital.plus
+  url: https://library.phygital.plus/
+  submit_url: https://library.phygital.plus/tool-submission
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: Paxi
+  domain: paxi.ai
+  url: https://paxi.ai/
+  submit_url: https://paxi.ai/submit
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''
+- name: PoweredbyAI
+  domain: poweredbyai.app
+  url: https://poweredbyai.app/
+  submit_url: https://poweredbyai.app/submit-tool
+  category: ai_directory
+  dr: null
+  monthly_traffic_est: null
+  form_complexity: unknown
+  auth_required: false
+  likely_dofollow: unknown
+  relevance_score: null
+  priority: low
+  adapter: generic
+  source: filtered
+  notes: ''

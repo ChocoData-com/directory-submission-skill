@@ -1,0 +1,97 @@
+# Product Profile - production version for Amazon Scraper API
+#
+# Schema notes:
+#  - Top-level keys per spec: product, contact, assets, credentials.
+#  - Legacy flat keys (product.email, product.twitter, product.categories,
+#    product.logo_path, product.og_image_path) are kept so the existing
+#    adapters in adapters/*.js (which read product.* directly) keep working.
+#  - This profile is consumed by scripts/batch_submit.py and every adapter.
+
+product:
+  name: "Amazon Scraper API"
+  short_name: "amazonscraperapi"
+  tagline: "Production REST API for Amazon product, search, and batch data."
+  short_description: "Managed REST API for Amazon product data, search results, and batch ASIN lookups. Residential proxies and TLS impersonation handled server-side. 1000 free requests on signup."
+  long_description: |
+    Amazon Scraper API is a production-grade managed REST API for scraping Amazon. Fetch a single product by ASIN, run keyword searches with sponsored/organic position breakdown, or queue up to 1000 ASINs as an async batch job. Backed by a residential proxy pool with TLS impersonation; CAPTCHA retries handled server-side; 20 Amazon marketplaces supported (US, UK, DE, FR, IT, ES, NL, PL, SE, CA, MX, BR, AU, JP, SG, IN, TR, AE, SA, EG).
+
+    Free tier: 1000 requests on signup, no credit card. Paid: $0.90 per 1000 successful requests on pay-as-you-go (lower on Custom plans). Non-2xx responses are not billed. Includes an MCP server for Claude Desktop and AI agents, plus an n8n community node.
+  url: "https://amazonscraperapi.com"
+  utm_url: "https://amazonscraperapi.com?utm_source=directory&utm_medium=listing&utm_campaign=launch"
+  pricing: "freemium"
+  free_tier: true
+  starts_at_usd: 0
+  paid_starts_at_usd: 0
+
+  # Primary category, per the spec
+  category_primary: "Developer Tools"
+  category_secondary:
+    - "API"
+    - "Data"
+    - "Web Scraping"
+    - "AI Agents"
+
+  # Legacy flat `categories` list, consumed by generic.js (uses categories[0]).
+  # Ordered so the most-likely-matched directory taxonomy comes first.
+  categories:
+    - "Developer Tools"
+    - "API"
+    - "Data"
+    - "Web Scraping"
+    - "AI Agents"
+    - "Ecommerce"
+
+  tags:
+    - "amazon"
+    - "scraping"
+    - "ecommerce"
+    - "api"
+    - "data-engineering"
+    - "mcp"
+    - "n8n"
+
+  # Legacy flat contact fields (read by generic.js)
+  email: "info@amazonscraperapi.com"
+  twitter: ""
+  github: "ChocoData-com"
+  linkedin: ""
+
+  # Legacy flat asset paths (read by adapters that upload logo / OG image)
+  logo_path: "assets/logo-256.png"
+  og_image_path: "assets/og-1200x630.png"
+
+# Per-spec `contact` block (new). Some directories ask for the submitter name.
+contact:
+  email: "info@amazonscraperapi.com"
+  submitter_name: "Mantas Petruskevicius"
+  twitter: ""
+  github: "https://github.com/ChocoData-com"
+  linkedin: ""
+
+# Per-spec `assets` block (new).
+assets:
+  logo: "assets/logo-256.png"
+  og_image: "assets/og-1200x630.png"
+
+# Credentials for sites that require login. Empty unless we have a real account.
+credentials:
+  devhunt:
+    github_token: "${GITHUB_TOKEN}"
+  stackshare: {}
+  saashub: {}
+  uneed: {}
+
+# Browser settings, consumed by adapters/_browser.js
+browser:
+  backend: "auto"
+  headless: true
+  slow_mo_ms: 100
+  timeout_ms: 30000
+  screenshot_dir: "./dry-run-output"
+  user_agent: ""
+
+# Submission pacing - be polite
+pacing:
+  min_interval_ms: 60000           # 1 min between different sites
+  same_site_interval_ms: 3600000   # 1 hour before retrying the same site
+  jitter_ms: 15000

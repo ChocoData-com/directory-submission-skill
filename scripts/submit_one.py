@@ -47,6 +47,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 ADAPTERS_DIR = REPO_ROOT / "adapters"
 HISTORY = REPO_ROOT / "submission_history.json"
 FILTERED = REPO_ROOT / "filtered-targets.yaml"
+QUEUE = REPO_ROOT / "queue.yaml"
 
 REPORT_START = "---REPORT-JSON---"
 REPORT_END = "---END-REPORT-JSON---"
@@ -56,16 +57,29 @@ def slugify(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
-def find_target(site_name: str) -> dict | None:
-    if not FILTERED.exists():
-        return None
-    with FILTERED.open("r", encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
+def _iter_entries(data: dict):
+    """Yield entries from either the new queue.yaml schema (flat `targets:` list)
+    or the legacy filtered-targets.yaml schema (category-keyed lists)."""
+    if isinstance(data.get("targets"), list):
+        yield from data["targets"]
+        return
     for key, entries in data.items():
-        if key == "_meta" or not isinstance(entries, list):
+        if key in ("_meta", "metadata") or not isinstance(entries, list):
             continue
-        for entry in entries:
-            if entry.get("name", "").lower() == site_name.lower():
+        yield from entries
+
+
+def find_target(site_name: str) -> dict | None:
+    needle = (site_name or "").lower().strip()
+    for src in (QUEUE, FILTERED):
+        if not src.exists():
+            continue
+        with src.open("r", encoding="utf-8") as f:
+            data = yaml.safe_load(f) or {}
+        for entry in _iter_entries(data):
+            name = (entry.get("name") or "").lower()
+            domain = (entry.get("domain") or "").lower()
+            if name == needle or domain == needle:
                 return entry
     return None
 
